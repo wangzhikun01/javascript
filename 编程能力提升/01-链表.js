@@ -57,35 +57,49 @@ class Link{
         node.pre = old.pre;
         node.next = old;
     };
+    next(node){// 节点后移遍历，不输入节点的话。默认是pos
+        let n = node||this.pos;
+        let next = n.next;
+        if(next){
+            let n;
+        }
+        return next
+    }
 }
 
-// let l = new Link();
-// l.insert(1);
-// l.insert(2);
-// l.insert(3);
+let l = new Link();
+l.insert(1);
+l.insert(2);
+l.insert(3);
+l.insert(4)
 // l.update(2,4);
 // l.beforeInsert(4,5);
 // l.delete(1);
-// l.show(); // 链表的顺序为：head - 5 - 4 - 3 - null
+l.show(); // 链表的顺序为：head - 5 - 4 - 3 - null
 
-class circle extends Link{
-    constructor(){
-        super();
-        let n = new Node();
-        this.foot = n;
-        this.foot.next = this.head;
-        this.head.pre = this.foot;
-    };
-    insert(value){ // 末尾插入
-        let n = new Node(value);
-        n.next = this.head;
-        n.pre = this.foot;
-        this.foot.next = n;
-        this.head.pre = n;
-        this.length ++ ;
-    };
-    set(value){ // 设置链表的指针为指定的值
-        let node = this.search(value);
-        if(node) this.pos = node;
+/**
+ * 链表的倒数第N个元素的值
+ * 先用一个指针，移动n次，移动到第n个元素
+ * 然后从头再使用一个指针
+ * 两个指针一起动，当第一个指针移动到链表末尾时，继续走了L-n次
+ * 而这时第二个指针移动了L-N次（倒数第N个元素，就是正数第L-N个元素）
+ * 
+ * 假设数组类，有原型方法next
+ */
+function lastN(link,n){
+    let p1 = link.head;
+    let p2 = link.head;
+    for(let i=0;i<n;i++){
+        p1 = p1.next;
+    }
+    console.log(p1)
+    while(true){
+        p1 = p1.next;
+        p2 = p2.next;
+        if(!p1)return p2;
     }
 }
+console.log(lastN(l,2));
+
+
+
