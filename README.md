@@ -4,12 +4,13 @@
 
 内容包括：JavaScript的执行、原理、和特性。
 
-| 标题                       | 连接                                                        |
-| -------------------------- | ----------------------------------------------------------- |
-| JavaScript的执行机制       | https://blog.csdn.net/qq_26866549/article/details/101675344 |
-| JavaScript的执行上下文     | https://blog.csdn.net/qq_26866549/article/details/101675418 |
-| JavaScript中的异步编程     | https://blog.csdn.net/qq_26866549/article/details/101675533 |
-| JavaScript中的类和类的继承 | https://blog.csdn.net/qq_26866549/article/details/101676061 |
+| 标题                                                         | 连接                                                        |
+| ------------------------------------------------------------ | ----------------------------------------------------------- |
+| JavaScript的执行机制                                         | https://blog.csdn.net/qq_26866549/article/details/101675344 |
+| JavaScript的执行上下文                                       | https://blog.csdn.net/qq_26866549/article/details/101675418 |
+| JavaScript中的异步编程                                       | https://blog.csdn.net/qq_26866549/article/details/101675533 |
+| JavaScript中的类和类的继承                                   | https://blog.csdn.net/qq_26866549/article/details/101676061 |
+| [05-JavaScript中的对象代理](https://github.com/wangzhikun01/javascript/blob/master/JavaScript%E4%B8%93%E9%A1%B9/05-proxy%E4%BB%A3%E7%90%86.md) |                                                             |
 
 ### 2.前端开发踩坑
 
@@ -17,15 +18,17 @@
 
 | 标题                                                         |
 | ------------------------------------------------------------ |
-| 浏览器安全                                                   |
-| [拖动改变组件大小](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/01-%E6%8B%96%E5%8A%A8%E6%94%B9%E5%8F%98%E7%BB%84%E4%BB%B6%E5%A4%A7%E5%B0%8F.md) |
-| [PDF查看组件](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/01-%E6%8B%96%E5%8A%A8%E6%94%B9%E5%8F%98%E7%BB%84%E4%BB%B6%E5%A4%A7%E5%B0%8F.md) |
-| [图片上传组件](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/01-%E6%8B%96%E5%8A%A8%E6%94%B9%E5%8F%98%E7%BB%84%E4%BB%B6%E5%A4%A7%E5%B0%8F.md) |
-| [图片裁切](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/04-%E5%9B%BE%E7%89%87%E8%A3%81%E5%88%87.md) |
-| [文件上传及预览](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/05-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%8F%8A%E9%A2%84%E8%A7%88.md) |
-| [前端大数据量搜索](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/06-%E5%89%8D%E7%AB%AF%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%87%8F%E6%90%9C%E7%B4%A2.md) |
-| [权限控制-页面隐藏](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/07-%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6-%E9%A1%B5%E9%9D%A2%E9%9A%90%E8%97%8F.md) |
-|                                                              |
+| [08-浏览器安全](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/08-%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AE%89%E5%85%A8.md) |
+| [01-拖动改变组件大小](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/01-%E6%8B%96%E5%8A%A8%E6%94%B9%E5%8F%98%E7%BB%84%E4%BB%B6%E5%A4%A7%E5%B0%8F.md) |
+| [02-PDF查看组件](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/01-%E6%8B%96%E5%8A%A8%E6%94%B9%E5%8F%98%E7%BB%84%E4%BB%B6%E5%A4%A7%E5%B0%8F.md) |
+| [03-图片上传组件](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/01-%E6%8B%96%E5%8A%A8%E6%94%B9%E5%8F%98%E7%BB%84%E4%BB%B6%E5%A4%A7%E5%B0%8F.md) |
+| [04-图片裁切](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/04-%E5%9B%BE%E7%89%87%E8%A3%81%E5%88%87.md) |
+| [05-文件上传及预览](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/05-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%8F%8A%E9%A2%84%E8%A7%88.md) |
+| [06-前端大数据量搜索](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/06-%E5%89%8D%E7%AB%AF%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%87%8F%E6%90%9C%E7%B4%A2.md) |
+| [07-权限控制-页面隐藏](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/07-%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6-%E9%A1%B5%E9%9D%A2%E9%9A%90%E8%97%8F.md) |
+| [09-vue组件过度](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/08-%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AE%89%E5%85%A8.md) |
+| [10-nodejs写爬虫](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/10-%E6%97%A0%E5%A4%B4%E6%B5%8F%E8%A7%88%E5%99%A8.md) |
+| [11-前端开发中的API管理及mock](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/11-%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%B8%ADAPI%E7%AE%A1%E7%90%86%E5%8F%8Amock%E6%95%B0%E6%8D%AE.md) |
 
 
 
