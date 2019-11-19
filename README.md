@@ -26,7 +26,7 @@
 | [05-文件上传及预览](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/05-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%8F%8A%E9%A2%84%E8%A7%88.md) |
 | [06-前端大数据量搜索](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/06-%E5%89%8D%E7%AB%AF%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%87%8F%E6%90%9C%E7%B4%A2.md) |
 | [07-权限控制-页面隐藏](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/07-%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6-%E9%A1%B5%E9%9D%A2%E9%9A%90%E8%97%8F.md) |
-| [09-vue组件过度](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/08-%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AE%89%E5%85%A8.md) |
+| [09-vue组件过渡](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/08-%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AE%89%E5%85%A8.md) |
 | [10-nodejs写爬虫](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/10-%E6%97%A0%E5%A4%B4%E6%B5%8F%E8%A7%88%E5%99%A8.md) |
 | [11-前端开发中的API管理及mock](https://github.com/wangzhikun01/javascript/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/11-%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%B8%ADAPI%E7%AE%A1%E7%90%86%E5%8F%8Amock%E6%95%B0%E6%8D%AE.md) |
 
@@ -62,4 +62,14 @@
 
 
 
+
+### 5、TODO
+
+| 待做列表                                                     |
+| ------------------------------------------------------------ |
+| 手写promise                                                  |
+| 垂直居中的几种方式                                           |
+| 原型链                                                       |
+| this指向，绑定this的api，及API之间的区别，和替换（用一个实现另一个） |
+| vue生命周期，每个钩子函数的意义，及使用场景                  |
 
