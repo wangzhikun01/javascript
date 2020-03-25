@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .msg_list{
+            width: 900px;
+            border:1px solid black;
+            margin:30px auto;
+            height: 400px;
+        }
+        input{
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <script src="./socket-client.js"></script> -->
+    <!-- <script>
+        let socket = io("http://127.0.0.1:3000")
+        socket.on('client',d=>{
+            alert(d);
+        })
+    </script> -->
+    <script>
+        var io = new WebSocket('ws://localhost:3000');
+        // io.onopen = function(){
+        //     alert('io 已经连接')
+        // }
+        io.onmessage = function(e){
+            console.log('message:',e)
+        }
+        function submit(){
+            let input = document.getElementsByName('input')[0];
+            let msg = input.value;
+            io.send(msg);
+            input.value = '';
+        }
+    </script>
+    <div class="msg_list">
+
+    </div>
+    <input type="text">
+    <button onclick="submit">发送消息</button>
+    
+</body>
+</html>
